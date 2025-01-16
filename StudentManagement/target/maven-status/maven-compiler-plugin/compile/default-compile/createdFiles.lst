@@ -1,0 +1,5 @@
+model\Validation.class
+controller\Management.class
+view\StudentManagementView.class
+model\Student.class
+model\CheckCondition.class

@@ -1,0 +1,13 @@
+Scanner keyBoardInput = new Scanner(System.in);
+        System.out.println("enter a number: ");
+        boolean success = false;
+        while (success==false) {
+            try {
+                double num = keyBoardInput.nextDouble();
+                System.out.println(num);
+                success = true;
+            } catch (Exception e) {
+                System.out.println("Invalid,please enter a number:");
+                keyBoardInput.next();
+            }
+        }
